@@ -1,0 +1,6 @@
+"F:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\fcnpr\ga_fcnpr\ga_fcnpr
+-- [32m * [mUsing: [35mCatch2[m for unit testing
+--  * Testing: Enabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="FCNPR" targetName="fcnpr" />
+      <config projectName="FCNPR" targetName="pr" />
+      <config projectName="FCNPR" targetName="PandRGATest" />
+      <config projectName="FCNPR" targetName="libabcsat" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d377f485-0dc0-4621-9485-82e5ac622761" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1mBPF36u7ehVSM1XZcW91nqy6KR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fcnpr\ga_fcnpr\ga_fcnpr\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.PandRGATest">
+    <configuration name="PandRGATest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="PandRGATest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FCNPR" RUN_TARGET_NAME="PandRGATest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fcnpr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="fcnpr" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libabcsat" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="libabcsat" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="pr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FCNPR" RUN_TARGET_NAME="pr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.libabcsat" />
+      <item itemvalue="CMake Application.pr" />
+      <item itemvalue="CMake Application.fcnpr" />
+      <item itemvalue="CMake Application.PandRGATest" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d377f485-0dc0-4621-9485-82e5ac622761" name="Default Changelist" comment="" />
+      <created>1608963903971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608963903971</updated>
+      <workItem from="1608963906797" duration="6360000" />
+      <workItem from="1609125429372" duration="25466000" />
+      <workItem from="1609321669869" duration="3170000" />
+      <workItem from="1609380645974" duration="7705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609033023804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609033023804" />
+    <state width="1877" height="803" key="GridCell.Tab.0.bottom" timestamp="1609402892341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="803" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
+    <state width="1877" height="803" key="GridCell.Tab.0.center" timestamp="1609402892341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="803" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
+    <state width="1877" height="803" key="GridCell.Tab.0.left" timestamp="1609402892341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="803" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
+    <state width="1877" height="803" key="GridCell.Tab.0.right" timestamp="1609402892341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="803" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
+  </component>
+</project>
