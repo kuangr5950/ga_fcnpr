@@ -168,8 +168,8 @@ namespace fcnpr {
 
     Route ChessBoard::compute_path_between(const Position &pos1, const Position &pos2) {
         Route route_two_point;
-        Astar().search(pos1, pos2);
-        return route_two_point = Astar().route;
+        astar().search(pos1, pos2);
+        return route_two_point = astar().route;
     }
 
     void ChessBoard::place_callback(const Position &pos) noexcept {

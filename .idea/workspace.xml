@@ -42,10 +42,11 @@
       <recent name="D:\fcnpr\ga_fcnpr\ga_fcnpr\src" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.PandRGATest">
-    <configuration name="PandRGATest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="PandRGATest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FCNPR" RUN_TARGET_NAME="PandRGATest">
+  <component name="RunManager" selected="Catch.PandRGATest">
+    <configuration name="PandRGATest" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="PandRGATest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FCNPR" RUN_TARGET_NAME="PandRGATest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="fcnpr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="fcnpr" CONFIG_NAME="Debug">
@@ -64,10 +65,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Catch.PandRGATest" />
       <item itemvalue="CMake Application.libabcsat" />
       <item itemvalue="CMake Application.pr" />
       <item itemvalue="CMake Application.fcnpr" />
-      <item itemvalue="CMake Application.PandRGATest" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -84,6 +85,7 @@
       <workItem from="1609125429372" duration="25466000" />
       <workItem from="1609321669869" duration="3170000" />
       <workItem from="1609380645974" duration="7705000" />
+      <workItem from="1609824366212" duration="19795000" />
     </task>
     <servers />
   </component>
@@ -95,21 +97,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609033023804" />
-    <state width="1877" height="803" key="GridCell.Tab.0.bottom" timestamp="1609402892341">
+    <state x="656" y="230" key="#fcnpr" timestamp="1609922559490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="803" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
-    <state width="1877" height="803" key="GridCell.Tab.0.center" timestamp="1609402892341">
+    <state x="656" y="230" key="#fcnpr/0.0.1920.1040@0.0.1920.1040" timestamp="1609922559490" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1609938228577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="803" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
-    <state width="1877" height="803" key="GridCell.Tab.0.left" timestamp="1609402892341">
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609938228577" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1609938228577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="803" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
-    <state width="1877" height="803" key="GridCell.Tab.0.right" timestamp="1609402892341">
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609938228577" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1609938228577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="803" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609402892341" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609938228577" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1609938228577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609938228577" />
+    <state x="706" y="192" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609916422932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="192" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609916422932" />
   </component>
 </project>

@@ -35,7 +35,7 @@ namespace std {
 
 namespace fcnpr {
 
-    static const uint64_t DEFAULT_SIZE = Astar().row;
+    static const uint64_t DEFAULT_SIZE = astar().row;
 
     class ChessBoard {
     public:

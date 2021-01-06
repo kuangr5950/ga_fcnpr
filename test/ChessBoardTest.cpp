@@ -8,7 +8,7 @@
 
 using namespace fcnpr;
 using namespace Catch;
-
+/*
 TEST_CASE("ChessBoard.cpp testing" "[ChessBoard]"){
 
     ChessBoard& cbd = chessboard();
@@ -91,4 +91,18 @@ TEST_CASE("ChessBoard.cpp testing" "[ChessBoard]"){
     REQUIRE( ( ngh.at(1).first == 3 && ngh.at(1).second ==1 ) );
 
 }
+*/
+TEST_CASE("ChessBoard.cpp testing" "[ChessBoard]") {
 
+    ChessBoard &cbd = chessboard();
+    Position p1(3,3);
+    Position p2(4,3);
+
+    Route route = cbd.compute_path_between(p1,p2);
+    for(auto &pos : route) {
+        std::cout << pos << " ";
+    }
+    std::cout << std::endl;
+
+
+}

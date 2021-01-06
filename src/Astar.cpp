@@ -147,4 +147,9 @@ namespace fcnpr {
         ///std::cout <<'('<< current->x <<',' << current->y << ')' << std::endl;
         route.emplace_back(std::make_pair(current->x, current->y));
     }
+
+    Astar &astar() {
+        static Astar instance{};
+        return instance;
+    }
 }

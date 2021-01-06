@@ -42,7 +42,7 @@ namespace fcnpr{
 
     class Astar {
     public:
-        Astar();
+        ///Astar();
         ~Astar();
 
         void search(Position const &pos1, Position const &pos2);//搜索路径
@@ -67,7 +67,12 @@ namespace fcnpr{
         static const int wayCost{10};
         static const uint64_t row{30};
         static const uint64_t col{30};
+    private:
+        explicit  Astar();
+        friend Astar& astar();
     };
+
+    Astar & astar();
 }
 
 #endif //FCNPR_ASTAR_H
