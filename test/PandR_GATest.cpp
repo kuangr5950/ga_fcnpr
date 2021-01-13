@@ -30,10 +30,29 @@ TEST_CASE("PandR_GA.cpp testing" "[c17.v]") {
     std::cout << pandr.n_generation << std::endl;
     std::cout << pandr.n_nodes << std::endl;
 
+    Individual indi = pandr.individual_gen();
+    for(auto &item : indi.nodes_pos){
+        std::cout<< item.first << ":" << item.second << " " ;
+    }
+    std::cout << std::endl;
+    for(auto &item1 : indi.pos_encoded){
+        std::cout << item1 << " " ;
+    }
+    std::cout << std::endl;
 
-   /// Position p1(3,3);
-   /// Position p2(4,3);
-
+    /*
+    pandr.initGroup();
+    for(auto i=0;i< pandr.n_populaitions; ++i){
+        for(auto &item : pandr.populations[i].nodes_pos){
+            std::cout<< item.first<< ":" << item.second << " " ;
+        }
+        std::cout << std::endl;
+        for(auto &item1 : pandr.populations[i].pos_encoded){
+            std::cout << item1 << " " ;
+        }
+        std::cout << std::endl;
+    }
+    */
 
 
 

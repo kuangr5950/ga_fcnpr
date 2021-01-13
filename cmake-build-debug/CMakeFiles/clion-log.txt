@@ -1,4 +1,16 @@
 "F:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\fcnpr\ga_fcnpr\ga_fcnpr
+-- The CXX compiler identification is GNU 10.1.0
+-- Check for working CXX compiler: F:/msys64/mingw64/bin/g++.exe
+-- Check for working CXX compiler: F:/msys64/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- [32m * [mUsing: [35mCatch2[m for unit testing
 --  * Testing: Enabled
 -- Configuring done
