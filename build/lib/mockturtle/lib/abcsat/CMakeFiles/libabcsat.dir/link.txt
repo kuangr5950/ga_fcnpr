@@ -1,0 +1,2 @@
+/mingw64/bin/ar.exe qc liblibabcsat.a  CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj CMakeFiles/libabcsat.dir/Glucose.cpp.obj CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj CMakeFiles/libabcsat.dir/satSolver.cpp.obj CMakeFiles/libabcsat.dir/satStore.cpp.obj
+/mingw64/bin/ranlib.exe liblibabcsat.a

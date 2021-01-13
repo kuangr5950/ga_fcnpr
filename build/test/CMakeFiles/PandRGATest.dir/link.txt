@@ -1,0 +1,1 @@
+/mingw64/bin/CC.exe     CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.obj  -o PandRGATest  ../src/libfcnpr.so ../lib/mockturtle/lib/abcsat/liblibabcsat.a 

@@ -31,10 +31,9 @@ namespace fcnpr{
 
     uint64_t PandRGA::node_cnt() {
         uint64_t cnt = 0;
-        for(uint64_t i = 0; i <= network().depth(); i++){
+        for(uint64_t i = 0; i <= network().depth(); ++i){
             cnt = cnt + network().nodes_at_level(i).size();
         }
-        std::cout << cnt << std::endl;
         return cnt;
     }
 
@@ -42,15 +41,18 @@ namespace fcnpr{
         Individual individual;
         Position pos;
         std::vector<Position> temp_placement;
-        for(uint64_t i=0; i < network().depth(); i++){
+        individual.nodes_pos.clear();
+        for(uint64_t i=0; i <= network().depth(); ++i){
             auto level_nodes = network().nodes_at_level(i);
-            for(uint64_t j=0; j < level_nodes.size(); j++) {
+            for(uint64_t j=0; j < level_nodes.size(); ++j) {
                 pos.first = random_gen(N);
                 pos.second = random_gen(N);
-                individual.nodes_pos.insert({level_nodes[j],pos});      ///在节点及对应的位置生成后，插入nodes_pos中保存。
-                temp_placement.push_back(pos);
+                individual.nodes_pos[level_nodes[j]] = pos;   ///在节点及对应的位置生成后，插入nodes_pos中保存。
             }
         }       ///按层级顺序生成节点的坐标，第一层节点、第二层节点....(以便于后面的处理)
+        for(auto &it : individual.nodes_pos) {
+            temp_placement.push_back(it.second);
+        }
         individual.pos_encoded = encode(temp_placement);
         return individual;
     }
@@ -78,8 +80,21 @@ namespace fcnpr{
 
     void PandRGA::initGroup() {
         std::cout << "gggggg" << std::endl;
-        for(auto i = 0; i< n_populaitions; i++){
-            populations.push_back(individual_gen());
+        int n=0;
+        for(auto i = 0; i< n_populaitions; ++i){
+            auto indi = individual_gen();
+            populations[i] = indi;
+            std::cout << n++ << std::endl;
+        }
+        for(auto i=0;i< n_populaitions; ++i){
+            for(auto &item : populations[i].nodes_pos){
+                std::cout<< item.first<< ":" << item.second << " " ;
+            }
+            std::cout << std::endl;
+            for(auto &item1 : populations[i].pos_encoded){
+                std::cout << item1 << " " ;
+            }
+            std::cout << std::endl;
         }
     }
     ///节点坐标是否有重复，重复则不满足节点位置分配要求
@@ -101,13 +116,15 @@ namespace fcnpr{
     bool PandRGA::path_exist(Individual & individual) {
         std::cout << "bbbbb" << std::endl;
         Route route;
-
-        for(auto i = 1; i < network().depth(); ++i){
+        for(auto i = 1; i <= network().depth(); ++i){
             auto level_node = network().nodes_at_level(i);
             for(auto it : level_node){
+                std::cout << it << std::endl;
                 auto fin_ins = network().fan_ins_of(it);
                 for(auto &finin_node : fin_ins){
+                    std::cout << finin_node <<std::endl;
                     auto pos_src = individual.nodes_pos.at(finin_node);
+                    std::cout << pos_src << std::endl;
                     auto pos_tgt = individual.nodes_pos.at(it);
                     route = chessboard().compute_path_between(pos_src,pos_tgt); ///A*算法计算所有节点的路径 起始点为fininnode
                     if(route.empty()){
@@ -132,7 +149,7 @@ namespace fcnpr{
     bool PandRGA::clock_sync(Individual &individual) {
         std::cout << "cccccc" << std::endl;
         std::vector<Route> temp_route;
-        for (auto i = 1; i < network().depth(); ++i) {        ///从第一层节点开始考虑  不考虑primary input节点
+        for (auto i = 1; i <= network().depth(); ++i) {        ///从第一层节点开始考虑  不考虑primary input节点
             auto level_node = network().nodes_at_level(i);
             for (auto it : level_node) {
                 auto fin_ins = network().fan_ins_of(it);
@@ -158,7 +175,7 @@ namespace fcnpr{
     ///判断路径是否能正确放置实现，
     bool PandRGA::path_route(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> & routings) {
         std::cout << "nnnnnn" << std::endl;
-        for(auto i = 1; i < network().depth(); ++i){
+        for(auto i = 1; i <= network().depth(); ++i){
             for(auto it = routings[i].begin(); it != routings[i].end(); ++it){
                 if(!chessboard().wire_route(it->second)){
                     return false;
@@ -168,7 +185,7 @@ namespace fcnpr{
         return true;
     }
 
-    bool PandRGA::place( std::unordered_map<Node,Position> const & nodes_pos) {
+    bool PandRGA::place( std::map<Node,Position> const & nodes_pos) {
         std::cout << "iiiiiiii" << std::endl;
         for(auto &n_p : nodes_pos ){
             if(!chessboard().place_node(n_p.second,n_p.first)){
@@ -179,7 +196,7 @@ namespace fcnpr{
     }
 
     /*bool PandRGA::routing(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> const & routings) {
-        for(auto i = 1; i < network().depth(); ++i){
+        for(auto i = 1; i <= network().depth(); ++i){
             for(auto &[src_tgt,route] : routings[i]){
                 if(!chessboard().wire_route(route)){
                     return false;
@@ -194,7 +211,7 @@ namespace fcnpr{
         for (auto &n_p : individual.nodes_pos) {
             chessboard().unplace_node(n_p.second);
         }
-        for(auto i = 1; i < network().depth(); ++i) {
+        for(auto i = 1; i <= network().depth(); ++i) {
             for (auto &[src_tgt, route] : individual.routings[i]) {
                 chessboard().wire_route(route);
             }
@@ -205,19 +222,14 @@ namespace fcnpr{
     ///个体适应度值的计算  若不是一个可行的解则为 1/(2*N*N) 否则为1/area()
     void PandRGA::fitness_cpt(Individual & indi) {
         std::cout << "////////////" << std::endl;
-        /*
-        std::vector<Position> real_pos;
-        real_pos = decode(indi.pos_encoded);
-        int node = 0;
-        ///把节点的编号与坐标位置统一起来
-        for(uint64_t i=0; i < network().depth(); ++i) {
-            auto level_nodes = network().nodes_at_level(i);
-            for (uint64_t j = 0; j < level_nodes.size(); ++j) {
-                indi.nodes_pos.insert({level_nodes[j],real_pos[node]});
-                ++node;
-            }
+        ///遗传算法每次交叉、变异操作改变了节点的坐标位置，需要将把节点的编号与坐标位置再次统一起来
+        auto real_pos = decode(indi.pos_encoded);
+        int n = 0;
+        for(auto &it : indi.nodes_pos){
+            it.second = real_pos[n];
+            ++n;
         }
-        */
+
         indi.fitness = 1 / (2 * N * N);
         if ((!containDuplicate(indi.pos_encoded)) && path_exist(indi)
             && clock_sync(indi) && path_route(indi.routings)
@@ -284,8 +296,8 @@ namespace fcnpr{
         for(uint64_t i = 0; i < GROUP_SCALE; ++i){
             p =  rand() % (9999 + 1) / (float)(9999 + 1);
             if(p < 0.2){
-                for(int j = 0; j < 3; ++j){
-                    int l = random_gen(n_nodes);    ///改变个体中3个节点的位置坐标,随机生成下标(未考虑重复)，然后用随机生成的新的值去代替旧的值
+                for(int j = 0; j < n_nodes/4; ++j){
+                    int l = random_gen(n_nodes);    ///根据图的节点规模选择需要变异的位置,随机生成下标(未考虑重复)，然后用随机生成的新的值去代替旧的值
                     uint64_t x = random_gen(N);
                     uint64_t y = random_gen(N);
                     uint64_t new_pos = x * N + y;
@@ -334,6 +346,12 @@ namespace fcnpr{
     bool PandRGA::run() {
         std::cout << "+++++++++++" << std::endl;
         initGroup();
+        for(auto i=0;i<n_populaitions; ++i){
+            for(auto &item : populations[i].nodes_pos){
+                std::cout<< item.first<< ":" << item.second << " " ;
+            }
+            std::cout << std::endl;
+        }
         std::cout << "yyyyyyy" << std::endl;
         for(int i = 0; i < n_generation; ++i){
             for(auto j = 0; j < populations.size() ; ++j){
@@ -346,11 +364,7 @@ namespace fcnpr{
             crossover();
             mutation();
         }
-        if(best_indi[0].fitness > 1 / (2 * N * N)){
-            return true;
-        } else{
-            return false;
-        }
+        return best_indi[0].fitness > 1 / (2 * N * N);
     }
 
     ///打印结果，将best_indi中保存的个体打印（如果存在 适应度值为area的倒数时）
@@ -362,15 +376,15 @@ namespace fcnpr{
 
         auto n_level0 = network().nodes_at_level(0).size();
         for(auto i = 0; i < n_level0; ++i){
-            std::cout <<  node << ":" << nodes_position[i]<< std::endl;   ///节点的编号与存储下标对应
+            std::cout <<  node << ":" << best_indi[0].nodes_pos.at(node) << std::endl;   ///节点的编号与存储下标对应
             ++node;
         }
 
-        for(auto j = 1; j < network().depth(); ++j) {
+        for(auto j = 1; j <= network().depth(); ++j) {
             std::cout << "Level " << j << std::endl;
             std::cout << "Node Positions: " << std::endl;
             for(auto k = 0 ; k < network().nodes_at_level(j).size(); ++k) {
-                std::cout << node << " : " << nodes_position[k] << std::endl;
+                std::cout << node << " : " << best_indi[0].nodes_pos.at(node) << std::endl;
                 ++node;
             }
             std::cout << "Routings: " << std::endl;
