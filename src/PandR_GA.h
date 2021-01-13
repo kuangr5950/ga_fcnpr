@@ -11,21 +11,22 @@
 
 #include "Types.h"
 
+#define private public
+
 ///#define GROUP_SCALE 100
 ///#define MAX_GEN 500
 ///#define P_MUTATION 0.2;
 ///#define P_CROSSOVER 0.8;
 
-
 namespace fcnpr {
 
     struct Individual {
         std::vector<uint64_t> pos_encoded;     ///位置坐标被编码后的布局
-        std::unordered_map<Node,Position> nodes_pos;   ///各节点以及对应的位置
+        std::map<Node,Position> nodes_pos;   ///各节点以及对应的位置
         std::vector<std::unordered_map<std::pair<Node, Node>, Route>> routings;   ///保存节点之间的可行路径(不用编码)
-        double fitness;                 ///适应度值
-        double refitness;               ///累加值
-        double cfitness;                ///用于辅助计算适应度占比和被选中概率等
+        double fitness = 0.0;                 ///适应度值
+        double refitness = 0.0;               ///累加值
+        double cfitness = 0.0;                ///用于辅助计算适应度占比和被选中概率等
     };
 
     static const uint64_t GROUP_SCALE{100} ;
@@ -39,7 +40,6 @@ namespace fcnpr {
         bool run();
         void pr_result();
 
-    protected:
         uint64_t  random_gen(uint64_t const& m) const;
         std::vector<uint64_t> encode(std::vector<Position> const& placement) const;
         std::vector<Position> decode(std::vector<uint64_t> const& value) const;
@@ -52,7 +52,7 @@ namespace fcnpr {
         bool path_exist(Individual & individual);      ///根据连接关系的两个节点之间的路径是否存在
         bool clock_sync(Individual &individual);      ///节点的放置和路径对否满足时钟同步
         bool path_route(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> & routings);     ///存在的路径是否可以正确连接
-        bool place(std::unordered_map<Node,Position> const & nodes_pos);
+        bool place(std::map<Node,Position> const & nodes_pos);
         ///bool routing(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> const & routings);
         void clear_layout(Individual & individual);
 
