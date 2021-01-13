@@ -82,10 +82,16 @@ namespace fcnpr{
         std::cout << "gggggg" << std::endl;
         int n=0;
         for(auto i = 0; i< n_populaitions; ++i){
-            auto indi = individual_gen();
-            populations[i] = indi;
+            populations.emplace_back(individual_gen()); ///该方式下，indi.node_pos中的值不存在，无法打印
             std::cout << n++ << std::endl;
         }
+        /*
+        for(auto i = 0; i< n_populaitions; ++i){
+            auto indi = individual_gen();
+            populations[i] = indi;
+            std::cout << n++ << std::endl;   ///数据添加正常 但是程序异常终止
+        }
+        */
         for(auto i=0;i< n_populaitions; ++i){
             for(auto &item : populations[i].nodes_pos){
                 std::cout<< item.first<< ":" << item.second << " " ;
