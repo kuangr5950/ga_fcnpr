@@ -43,7 +43,7 @@ namespace fcnpr {
         uint64_t size() const noexcept;
         void clear() noexcept;
         void resize(uint64_t sz);
-
+        //这里是表达
         inline Cell&       cell_at(const Position &pos) noexcept {
             assert(pos.first < grid_size && pos.second < grid_size);
             return cell_grid[pos.first][pos.second];

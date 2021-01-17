@@ -19,7 +19,7 @@
 ///#define P_CROSSOVER 0.8;
 
 namespace fcnpr {
-
+    //一个个体就是一个电路的布线位置
     struct Individual {
         std::vector<uint64_t> pos_encoded;     ///位置坐标被编码后的布局
         std::map<Node,Position> nodes_pos;   ///各节点以及对应的位置
@@ -45,6 +45,8 @@ namespace fcnpr {
         std::vector<Position> decode(std::vector<uint64_t> const& value) const;
         Individual individual_gen();
         void initGroup();
+
+        //bool containDuplicate( Individual &individual);
         bool containDuplicate(std::vector<uint64_t> const& vec);
 
         uint64_t node_cnt();
@@ -52,7 +54,7 @@ namespace fcnpr {
         bool path_exist(Individual & individual);      ///根据连接关系的两个节点之间的路径是否存在
         bool clock_sync(Individual &individual);      ///节点的放置和路径对否满足时钟同步
         bool path_route(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> & routings);     ///存在的路径是否可以正确连接
-        bool place(std::map<Node,Position> const & nodes_pos);
+        //bool place(std::map<Node,Position> const & nodes_pos);
         ///bool routing(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> const & routings);
         void clear_layout(Individual & individual);
 
@@ -62,15 +64,15 @@ namespace fcnpr {
         void mutation();
         void select_the_best();
 
-
+        ~PandRGA();
     private:
         std::vector<Position> placement;     ///节点的具体位置
         uint64_t N;                  ///网格大小
         uint64_t n_populaitions;     ///种群规模
         uint64_t n_generation;       ///迭代次数
         uint64_t n_nodes;            ///节点个数
-        std::vector<Individual> populations;    ///种群
-        std::vector<Individual> best_indi;  ///保存最优个体
+        std::vector<Individual*> populations;    ///种群
+        std::vector<Individual*> best_indi;  ///保存最优个体
 
     };
 

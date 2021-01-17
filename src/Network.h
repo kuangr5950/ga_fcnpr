@@ -21,7 +21,7 @@ namespace fcnpr {
 
         uint32_t depth() const;
         uint32_t level_distance(Node const n, Node const m) const;
-	uint32_t node_level(Node const n);
+	    uint32_t node_level(Node const n);
 
         std::vector<Node> nodes_at_level(Level const l) const;
         std::vector<Node> fan_ins_of(Node const n) const;

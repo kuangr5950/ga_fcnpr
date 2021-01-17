@@ -23,9 +23,9 @@ endif()
 add_subdirectory(include)
 add_subdirectory(lib)
 
-if(MOCKTURTLE_EXAMPLES)
-  add_subdirectory(examples)
-endif()
+#if(MOCKTURTLE_EXAMPLES)
+#  add_subdirectory(examples)
+#endif()
 
 if(MOCKTURTLE_TEST)
   add_subdirectory(test)

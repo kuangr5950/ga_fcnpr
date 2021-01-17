@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/test/PandR_GATest.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.obj"
+  "F:/gitcode/ga_fcnpr/test/PandR_GATest.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "DISABLE_NAUTY"
   "FMT_HEADER_ONLY"
   "LIN64"
-  "TESTCASE=\"D:/fcnpr/ga_fcnpr/ga_fcnpr/test/benchmark\""
+  "TESTCASE=\"F:/gitcode/ga_fcnpr/test/benchmark\""
   )
 
 # The include file search paths:
@@ -35,8 +35,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake"
+  "F:/gitcode/ga_fcnpr/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake"
+  "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -5,41 +5,41 @@
 		<Option title="FCNPR"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\mockturtle\;CMake Files\lib\mockturtle\include\;CMake Files\lib\mockturtle\lib\;CMake Files\lib\mockturtle\lib\abcsat\;CMake Files\lib\mockturtle\examples\;CMake Files\src\;CMake Files\test\;CMake Files\main\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\mockturtle\;CMake Files\lib\mockturtle\include\;CMake Files\lib\mockturtle\lib\;CMake Files\lib\mockturtle\lib\abcsat\;CMake Files\src\;CMake Files\test\;CMake Files\main\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libabcsat">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -47,25 +47,25 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libabcsat/fast">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -73,25 +73,25 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat/fast"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat/fast"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fcnpr">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/libfcnpr.dll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/libfcnpr.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -101,33 +101,33 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fcnpr"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fcnpr"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fcnpr/fast">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/libfcnpr.dll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/libfcnpr.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -137,111 +137,111 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fcnpr/fast"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fcnpr/fast"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PandRGATest">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/PandRGATest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/PandRGATest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DTESTCASE=&quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/test/benchmark&quot;"/>
+					<Add option="-DTESTCASE=&quot;F:/gitcode/ga_fcnpr/test/benchmark&quot;"/>
 					<Add option="-DFMT_HEADER_ONLY"/>
 					<Add option="-DDISABLE_NAUTY"/>
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/src"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/catch2/single_include/catch2"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/src"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/catch2/single_include/catch2"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 PandRGATest"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 PandRGATest"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PandRGATest/fast">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/PandRGATest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/PandRGATest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DTESTCASE=&quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/test/benchmark&quot;"/>
+					<Add option="-DTESTCASE=&quot;F:/gitcode/ga_fcnpr/test/benchmark&quot;"/>
 					<Add option="-DFMT_HEADER_ONLY"/>
 					<Add option="-DDISABLE_NAUTY"/>
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/src"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/catch2/single_include/catch2"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/src"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/catch2/single_include/catch2"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 PandRGATest/fast"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 PandRGATest/fast"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pr">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/pr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/pr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/main"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -251,35 +251,35 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/src"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/args-parser/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/src"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/args-parser/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pr"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pr"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pr/fast">
-				<Option output="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/test/pr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main"/>
+				<Option output="F:/gitcode/ga_fcnpr/cmake-build-debug/test/pr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/gitcode/ga_fcnpr/cmake-build-debug/main"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -289,112 +289,109 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/src"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/ez"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/kitty"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/lorina"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/rang"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/fmt"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/percy"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
-					<Add directory="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/args-parser/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
-					<Add directory="F:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/src"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/include"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/ez"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/kitty"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/lorina"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/rang"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/fmt"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/sparsepp"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/percy"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="F:/gitcode/ga_fcnpr/lib/args-parser/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pr/fast"/>
-					<CompileFile command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pr/fast"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;F:/gitcode/ga_fcnpr/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/AbcGlucose.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/AbcGlucose.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/Glucose.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/Glucose.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/SimpSolver.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/SimpSolver.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/satSolver.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/satSolver.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/satStore.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/satStore.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/main/main.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/main/main.cpp">
 			<Option target="pr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Astar.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Astar.cpp">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Astar.h">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Astar.h">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Cell.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Cell.cpp">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Cell.h">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Cell.h">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/ChessBoard.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/ChessBoard.cpp">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/ChessBoard.h">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/ChessBoard.h">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Network.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Network.cpp">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/Network.h">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/Network.h">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/PandR_GA.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/PandR_GA.cpp">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/PandR_GA.h">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/PandR_GA.h">
 			<Option target="fcnpr"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/test/PandR_GATest.cpp">
+		<Unit filename="F:/gitcode/ga_fcnpr/test/PandR_GATest.cpp">
 			<Option target="PandRGATest"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/include/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/include/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\include\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\lib\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\lib\abcsat\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/examples/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lib\mockturtle\examples\"/>
-		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/src/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/test/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="D:/fcnpr/ga_fcnpr/ga_fcnpr/main/CMakeLists.txt">
+		<Unit filename="F:/gitcode/ga_fcnpr/main/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\main\"/>
 		</Unit>
 	</Project>

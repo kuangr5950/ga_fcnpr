@@ -5,7 +5,6 @@
 #include "PandR_GA.h"
 #include "ChessBoard.h"
 #include "Network.h"
-
 #include <random>
 #include <stdlib.h>
 #include <ctime>
@@ -16,19 +15,19 @@ namespace fcnpr{
     PandRGA::PandRGA () {
         n_generation   = MAX_GEN;
         n_populaitions = GROUP_SCALE;
-        N   =   30;
+        N   =  3;
         n_nodes = node_cnt();
         populations.resize(GROUP_SCALE);
     }
 
+    //产生随机数,随机数的取值范围0-m
     uint64_t PandRGA::random_gen(uint64_t const& m) const {
-        std::random_device rd;
-        std::mt19937 gen (rd());
-        std::uniform_int_distribution <> dis(0,m);
+        std::mt19937 gen (std::random_device{}());
+        std::uniform_int_distribution <> dis(1,m);//随机数设置从1开始 否则会出现两个坐标产生同一个编码值的情况 x1*N+y1= x2*N+y2
         uint64_t n = dis (gen);
         return n;
     }
-
+    //获取解析出来的所有的节点数cnt 返回电路节点的总数
     uint64_t PandRGA::node_cnt() {
         uint64_t cnt = 0;
         for(uint64_t i = 0; i <= network().depth(); ++i){
@@ -36,37 +35,40 @@ namespace fcnpr{
         }
         return cnt;
     }
-
+    //对个体中的坐标位置随机分配 返回一个随机分配位置后的个体
     Individual PandRGA::individual_gen() {
         Individual individual;
         Position pos;
-        std::vector<Position> temp_placement;
+        std::vector<Position> temp_placement;   //存放所有点坐标的容器
         individual.nodes_pos.clear();
         for(uint64_t i=0; i <= network().depth(); ++i){
             auto level_nodes = network().nodes_at_level(i);
             for(uint64_t j=0; j < level_nodes.size(); ++j) {
                 pos.first = random_gen(N);
                 pos.second = random_gen(N);
-                individual.nodes_pos[level_nodes[j]] = pos;   ///在节点及对应的位置生成后，插入nodes_pos中保存。
+                individual.nodes_pos[level_nodes[j]] = pos;   //在节点及对应的位置生成后，放入到nodes_pos中保存。
             }
-        }       ///按层级顺序生成节点的坐标，第一层节点、第二层节点....(以便于后面的处理)
+        }
+        //按层级顺序生成节点的坐标，第一层节点、第二层节点...的坐标值放入到temp_placement中保存
         for(auto &it : individual.nodes_pos) {
             temp_placement.push_back(it.second);
         }
+        //对个体实施编码
         individual.pos_encoded = encode(temp_placement);
         return individual;
     }
-
+//编码 返回一个值容器
     std::vector<uint64_t> PandRGA::encode(std::vector<Position> const& placement) const {
         std::vector<uint64_t> vec;
         uint64_t val_encoded;
         for(auto & po : placement){
+
             val_encoded = po.first * N + po.second;
-            vec.push_back(val_encoded);
+            vec.push_back(val_encoded); //将编码后的值再依次存入vec容器中
         }
         return vec;
     }
-
+//解码 返回位置容器
     std::vector<Position> PandRGA::decode(std::vector<uint64_t> const& value) const {
         Position pos;
         std::vector<Position> pos_decode;
@@ -78,20 +80,34 @@ namespace fcnpr{
         return pos_decode;
     }
 
+    //第一代种群,也就是产生100个电路位置的集合
+    //堆区分配内存存放n个个体视为初始种群
     void PandRGA::initGroup() {
+        for (auto i = 0; i < n_populaitions; ++i)
+        {
+            Individual *pr = new Individual();
+            populations.push_back(pr);
+            std::cout << " ok" ;
+        }
+    }
+
+     PandRGA::~PandRGA(){}
+        /*
         std::cout << "gggggg" << std::endl;
         int n=0;
+
         for(auto i = 0; i< n_populaitions; ++i){
             populations.emplace_back(individual_gen()); ///该方式下，indi.node_pos中的值不存在，无法打印
             std::cout << n++ << std::endl;
         }
-        /*
+
+
         for(auto i = 0; i< n_populaitions; ++i){
             auto indi = individual_gen();
             populations[i] = indi;
             std::cout << n++ << std::endl;   ///数据添加正常 但是程序异常终止
         }
-        */
+
         for(auto i=0;i< n_populaitions; ++i){
             for(auto &item : populations[i].nodes_pos){
                 std::cout<< item.first<< ":" << item.second << " " ;
@@ -103,28 +119,40 @@ namespace fcnpr{
             std::cout << std::endl;
         }
     }
-    ///节点坐标是否有重复，重复则不满足节点位置分配要求
+    */
+
+    //节点坐标是否有重复，重复则不满足节点位置分配要求
+    //传入个体,检查该电路中节点的值是否有重复
     bool PandRGA::containDuplicate(std::vector<uint64_t> const& vec) {
-        std::cout << "uuuuu" << std::endl;
+        std::cout << "have same nodes in this PR" << std::endl;
+        std::set<uint64_t> checkDuplicate(vec.begin(),vec.end());
+        if(vec.size() == checkDuplicate.size())
+            return true;
+            else
+                return false;
+        /*
         std::unordered_set<uint64_t> set(vec.size()*2);
         for(auto val : set){
             if(!set.insert(val).second)
                 return true;
         }
         return false;
+         */
     }
-    ///计算布局布线结果的面积，遗传算法的优化目标
+
+    //计算布局布线结果的面积，遗传算法的优化目标
     uint64_t PandRGA::area() {
         auto area = chessboard().compute_layout_area();
         return area;
     }
-    ///电路存在连接关系的节点之间在分配位置后之间是否存在可行的路径,A*算法
+    //电路存在连接关系的节点之间在分配位置后之间是否存在可行的路径,A*算法
     bool PandRGA::path_exist(Individual & individual) {
         std::cout << "bbbbb" << std::endl;
         Route route;
+        //遍历每一层节点
         for(auto i = 1; i <= network().depth(); ++i){
             auto level_node = network().nodes_at_level(i);
-            for(auto it : level_node){
+            for(auto &it : level_node){
                 std::cout << it << std::endl;
                 auto fin_ins = network().fan_ins_of(it);
                 for(auto &finin_node : fin_ins){
@@ -190,7 +218,7 @@ namespace fcnpr{
         }
         return true;
     }
-
+/*
     bool PandRGA::place( std::map<Node,Position> const & nodes_pos) {
         std::cout << "iiiiiiii" << std::endl;
         for(auto &n_p : nodes_pos ){
@@ -200,7 +228,7 @@ namespace fcnpr{
         }
         return true;
     }
-
+*/
     /*bool PandRGA::routing(std::vector<std::unordered_map<std::pair<Node, Node>, Route>> const & routings) {
         for(auto i = 1; i <= network().depth(); ++i){
             for(auto &[src_tgt,route] : routings[i]){
@@ -237,9 +265,10 @@ namespace fcnpr{
         }
 
         indi.fitness = 1 / (2 * N * N);
+        //如果没有重复节点分布,路径存在,时钟同步,路径正确放置
         if ((!containDuplicate(indi.pos_encoded)) && path_exist(indi)
-            && clock_sync(indi) && path_route(indi.routings)
-            && place(indi.nodes_pos) && path_route(indi.routings)) {///在计算面积之前调用place、routing函数实现节点和线路的放置
+            && clock_sync(indi)&& path_route(indi.routings))
+        {///在计算面积之前调用place、routing函数实现节点和线路的放置
             indi.fitness = 1 / area();
         }
         clear_layout(indi);    ///计算之后清除放置的节点和线路,保证只有一个chessboard类
@@ -256,36 +285,36 @@ namespace fcnpr{
         srand ((unsigned)time(NULL));
         ///计算种群适应度之和
         for(auto i = 0; i < populations.size(); ++i ){
-            sumfitness += populations[i].fitness;
-            populations[i].refitness = 0;
-            populations[i].cfitness = 0;
+            sumfitness += populations[i]->fitness;
+            populations[i]->refitness = 0;
+            populations[i]->cfitness = 0;
         }
         ///计算个体适应度占比
         for(auto j = 0; j < populations.size(); ++j){
-            populations[j].refitness = populations[j].fitness / sumfitness;
+            populations[j]->refitness = populations[j]->fitness / sumfitness;
         }
         ///计算累计适应度，即分配个体在0~1之间的位置区间
-        populations[0].cfitness = populations[0].refitness;
+        populations[0]->cfitness = populations[0]->refitness;
         for(auto l =1; l < populations.size(); ++l){
-            populations[l].cfitness = populations[l-1].cfitness + populations[l].refitness;
+            populations[l]->cfitness = populations[l-1]->cfitness + populations[l]->refitness;
         }
         ///轮盘赌随机选择  会有一些相同个体被选中
         for(auto m = 0; m < populations.size(); ++m) {
             p = rand() % (9999 + 1) / (float)(9999 + 1);  ///定义p为[0,1]之间的一个四位小数
-            if (p < populations[0].cfitness) {
-                New_populations[m] = populations[0];
+            if (p < populations[0]->cfitness) {
+                New_populations[m] = *populations[0];
             }
             else {
                 for (auto n = 0; n < populations.size(); ++n) {
-                    if (populations[n].cfitness <= p && p < populations[n + 1].cfitness) {
-                        New_populations[m] = populations[n + 1];
+                    if (populations[n]->cfitness <= p && p < populations[n + 1]->cfitness) {
+                        New_populations[m] = *populations[n + 1];
                     }
                 }
             }
         }
         ///种群更新
         for(auto k = 0; k < populations.size(); k++){
-            populations[k] = New_populations[k];
+            *populations[k] = New_populations[k];
         }
         return;
     }
@@ -307,7 +336,7 @@ namespace fcnpr{
                     uint64_t x = random_gen(N);
                     uint64_t y = random_gen(N);
                     uint64_t new_pos = x * N + y;
-                    populations[i].pos_encoded[l] = new_pos;
+                    populations[i]->pos_encoded[l] = new_pos;
                 }
             }
         }
@@ -331,9 +360,9 @@ namespace fcnpr{
         int p2 = (point2 - point1) > 0 ? point2 : point1;
 
         for(int i = p1; i <= p2; ++i){
-            temp_vec[i] = populations[x1].pos_encoded[i];
-            populations[x1].pos_encoded[i] = populations[x2].pos_encoded[i];
-            populations[x2].pos_encoded[i] = temp_vec[i];
+            temp_vec[i] = populations[x1]->pos_encoded[i];
+            populations[x1]->pos_encoded[i] = populations[x2]->pos_encoded[i];
+            populations[x2]->pos_encoded[i] = temp_vec[i];
         }
 
     }
@@ -342,7 +371,7 @@ namespace fcnpr{
         std::cout << "$$$$$$$$" << std::endl;
         best_indi[0] = populations[0];      ///初始化
         for(auto i = 1;i < populations.size(); ++i){
-            if(best_indi[0].fitness < populations[i].fitness)           ///保留个体适应度大的个体
+            if(best_indi[0]->fitness < populations[i]->fitness)           ///保留个体适应度大的个体
                 best_indi[0] = populations[i];
         }
         return;
@@ -353,7 +382,7 @@ namespace fcnpr{
         std::cout << "+++++++++++" << std::endl;
         initGroup();
         for(auto i=0;i<n_populaitions; ++i){
-            for(auto &item : populations[i].nodes_pos){
+            for(auto &item : populations[i]->nodes_pos){
                 std::cout<< item.first<< ":" << item.second << " " ;
             }
             std::cout << std::endl;
@@ -362,27 +391,27 @@ namespace fcnpr{
         for(int i = 0; i < n_generation; ++i){
             for(auto j = 0; j < populations.size() ; ++j){
                 std::cout << "======" << std::endl;
-                fitness_cpt(populations[j]);
-                std::cout << populations[j].fitness << std::endl;
+                fitness_cpt(*populations[j]);
+                std::cout << populations[j]->fitness << std::endl;
             }
             select_the_best();
             selection();
             crossover();
             mutation();
         }
-        return best_indi[0].fitness > 1 / (2 * N * N);
+        return best_indi[0]->fitness > 1 / (2 * N * N);
     }
 
     ///打印结果，将best_indi中保存的个体打印（如果存在 适应度值为area的倒数时）
     void PandRGA::pr_result() {
-        auto nodes_position = decode(best_indi[0].pos_encoded);
+        auto nodes_position = decode(best_indi[0]->pos_encoded);
         Node node = 1;      ///记录节点编号
         std::cout << "Area: " << area() << std::endl;
         std::cout << "Primary Inputs: " << std::endl;
 
         auto n_level0 = network().nodes_at_level(0).size();
         for(auto i = 0; i < n_level0; ++i){
-            std::cout <<  node << ":" << best_indi[0].nodes_pos.at(node) << std::endl;   ///节点的编号与存储下标对应
+            std::cout <<  node << ":" << best_indi[0]->nodes_pos.at(node) << std::endl;   ///节点的编号与存储下标对应
             ++node;
         }
 
@@ -390,11 +419,11 @@ namespace fcnpr{
             std::cout << "Level " << j << std::endl;
             std::cout << "Node Positions: " << std::endl;
             for(auto k = 0 ; k < network().nodes_at_level(j).size(); ++k) {
-                std::cout << node << " : " << best_indi[0].nodes_pos.at(node) << std::endl;
+                std::cout << node << " : " << best_indi[0]->nodes_pos.at(node) << std::endl;
                 ++node;
             }
             std::cout << "Routings: " << std::endl;
-            for(auto &[src_tgt, route] : best_indi[0].routings[j]) {
+            for(auto &[src_tgt, route] : best_indi[0]->routings[j]) {
                 std::cout << src_tgt.first << " => " << src_tgt.second << " : ";
                 for(auto &pos : route) {
                     std::cout << pos << " ";

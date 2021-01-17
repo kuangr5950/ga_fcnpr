@@ -119,9 +119,9 @@ namespace fcnpr {
     }
 
     void Astar::countGHF(Point *sPoint, Point *ePoint, int g) {
-        ///计算h值 也就是曼哈顿街区距离 两点之间坐标的绝对值相减的和 再乘上移动代价
+        //计算h值 也就是曼哈顿街区距离 两点之间坐标的绝对值相减的和 再乘上移动代价
         uint64_t h = (labs(sPoint->x - ePoint->x) + labs(sPoint->y - ePoint->y)) * wayCost;
-        ///当前节点的g值 = 节点父节点的g值 + g值
+        //当前节点的g值 = 节点父节点的g值 + g值
         uint64_t currentg = sPoint->father->g + g;
         uint64_t f = currentg + h;//计算f值
         sPoint->f = f;
@@ -144,7 +144,6 @@ namespace fcnpr {
     void Astar::Path_cache(Point *current) {
         if (current->father != NULL)
             Path_cache(current->father);
-        ///std::cout <<'('<< current->x <<',' << current->y << ')' << std::endl;
         route.emplace_back(std::make_pair(current->x, current->y));
     }
 

@@ -74,7 +74,7 @@ namespace fcnpr {
 	return view.level(n);
      }
 
-     std::vector<Node> Network::nodes_at_level(Level const l) const {
+    std::vector<Node> Network::nodes_at_level(Level const l) const {
         depth_view view{ntk};
 
         std::vector<Node> nodes;

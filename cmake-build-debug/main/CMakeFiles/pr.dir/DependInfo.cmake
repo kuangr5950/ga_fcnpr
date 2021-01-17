@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/main/main.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/main/CMakeFiles/pr.dir/main.cpp.obj"
+  "F:/gitcode/ga_fcnpr/main/main.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/main/CMakeFiles/pr.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,8 +34,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake"
+  "F:/gitcode/ga_fcnpr/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake"
+  "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

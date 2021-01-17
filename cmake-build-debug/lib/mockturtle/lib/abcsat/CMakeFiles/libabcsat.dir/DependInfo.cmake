@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/AbcGlucose.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/Glucose.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/SimpSolver.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/satSolver.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj"
-  "D:/fcnpr/ga_fcnpr/ga_fcnpr/lib/mockturtle/lib/abcsat/satStore.cpp" "D:/fcnpr/ga_fcnpr/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj"
+  "F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/AbcGlucose.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj"
+  "F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/Glucose.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj"
+  "F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/SimpSolver.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj"
+  "F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/satSolver.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj"
+  "F:/gitcode/ga_fcnpr/lib/mockturtle/lib/abcsat/satStore.cpp" "F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
