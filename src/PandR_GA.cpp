@@ -24,7 +24,7 @@ namespace fcnpr{
     uint64_t PandRGA::random_gen(uint64_t const& m) const {
         std::random_device rd;
         std::mt19937 gen (rd());
-        std::uniform_int_distribution <> dis(0,m);
+        std::uniform_int_distribution <> dis(1,m);
         uint64_t n = dis (gen);
         return n;
     }
@@ -106,12 +106,13 @@ namespace fcnpr{
     ///节点坐标是否有重复，重复则不满足节点位置分配要求
     bool PandRGA::containDuplicate(std::vector<uint64_t> const& vec) {
         std::cout << "uuuuu" << std::endl;
-        std::unordered_set<uint64_t> set(vec.size()*2);
-        for(auto val : set){
-            if(!set.insert(val).second)
+        std::unordered_set<uint64_t> set(vec.size() * 2);
+        for (auto val : vec) {
+            if (!set.insert(val).second) {
                 return true;
+            }
+            return false;
         }
-        return false;
     }
     ///计算布局布线结果的面积，遗传算法的优化目标
     uint64_t PandRGA::area() {
@@ -238,8 +239,8 @@ namespace fcnpr{
 
         indi.fitness = 1 / (2 * N * N);
         if ((!containDuplicate(indi.pos_encoded)) && path_exist(indi)
-            && clock_sync(indi) && path_route(indi.routings)
-            && place(indi.nodes_pos) && path_route(indi.routings)) {///在计算面积之前调用place、routing函数实现节点和线路的放置
+            && clock_sync(indi) && place(indi.nodes_pos)
+            && path_route(indi.routings)) {///在计算面积之前调用place、routing函数实现节点和线路的放置
             indi.fitness = 1 / area();
         }
         clear_layout(indi);    ///计算之后清除放置的节点和线路,保证只有一个chessboard类
