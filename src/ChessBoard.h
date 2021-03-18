@@ -14,31 +14,15 @@
 #include "Types.h"
 #include "Cell.h"
 #include "Astar.h"
-
-namespace std {
-    template<>
-    struct hash< std::pair<fcnpr::Position, fcnpr::Position> > {
-        using argument_type = std::pair<fcnpr::Position, fcnpr::Position>;
-        using result_type   = std::size_t;
-
-        result_type operator()(argument_type const &src_tgt) const noexcept {
-            std::size_t seed = 0;
-            boost::hash_combine(seed, src_tgt.first.first);
-            boost::hash_combine(seed, src_tgt.first.second);
-            boost::hash_combine(seed, src_tgt.second.first);
-            boost::hash_combine(seed, src_tgt.second.second);
-            return seed;
-        }
-
-    };
-}
-
 namespace fcnpr {
 
-    static const uint64_t DEFAULT_SIZE = astar().row;
+    static const uint64_t DEFAULT_SIZE = 30;
 
     class ChessBoard {
     public:
+
+        ChessBoard()=default;
+        ~ChessBoard()=default;
 
         uint64_t size() const noexcept;
         void clear() noexcept;
@@ -60,50 +44,30 @@ namespace fcnpr {
             assert(pos.first < grid_size && pos.second < grid_size);
             return cell_grid[pos.first][pos.second].has_node();
         }
-
         bool place_node(const Position &pos, Node node) noexcept;
+
         void unplace_node(const Position &pos) noexcept;
+
         bool wire_route(const Route &wire) noexcept;
+
         void unwire_route(const Route &wire) noexcept;
 
-        /*
-        inline uint8_t time_zone_of(const Position &pos) const noexcept {
-            auto const &x = pos.first;
-            auto const &y = pos.second;
-            return (y % 2 != 0)?
-                   ( ((y+1)%4 != 0)? (1+(x+1)%4) : (1+(x+3)%4) ) :
-                   ( (y%4 == 0)? (4-(x+3)%4) : (4-((x+1)%4)) );
-            ///2DDWave时钟
-            return (y % 2 != 0)?
-                   ( ((y+1)%4 != 0)? (1+(x+1)%4) : (1+(x+3)%4) ) :
-                   ( (y%4 == 0)? (1+x%4): (1+((x+2)%4)) );
-
-        }
-        */
-
-        ///bool exists_datapath_between(const Position &pos1, const Position &pos2) const noexcept;
         uint64_t compute_layout_area() const noexcept;
-        ///std::optional<Route> find_route_between(const Position &pos1, const Position &pos2) const noexcept;
-        ///std::vector<Position> neighbours(const Position &center, uint64_t radius) const noexcept;
+
         Route compute_path_between(const Position &pos1, const Position &pos2);
 
     private:
-        uint64_t    grid_size;
+        uint64_t  grid_size;
         std::vector<std::vector<Cell>> cell_grid;
 
         std::map<Coordinate, std::size_t> x_positions;
         std::map<Coordinate, std::size_t> y_positions;
 
-        ///std::unordered_map<std::pair<Position, Position>, Route> paths_in_grid;
-        ///void establish_paths_cache();
-
         void place_callback(const Position &pos) noexcept;
         void unplace_callback(const Position &pos) noexcept;
-
         explicit  ChessBoard(uint64_t sz);
         friend ChessBoard& chessboard();
     };
-
     ChessBoard &chessboard();
 }
 

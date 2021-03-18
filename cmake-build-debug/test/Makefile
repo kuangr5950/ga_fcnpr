@@ -67,10 +67,10 @@ RM = D:\msys2\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\gitcode\ga_fcnpr
+CMAKE_SOURCE_DIR = C:\Users\user\Desktop\ga_fcnpr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\gitcode\ga_fcnpr\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles F:\gitcode\ga_fcnpr\cmake-build-debug\test\CMakeFiles\progress.marks
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\test\CMakeFiles\progress.marks
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/PandRGATest.dir/rule:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/PandRGATest.dir/rule
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/PandRGATest.dir/rule
 .PHONY : test/CMakeFiles/PandRGATest.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ PandRGATest: test/CMakeFiles/PandRGATest.dir/rule
 
 # fast build rule for target.
 PandRGATest/fast:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/build
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/build
 .PHONY : PandRGATest/fast
 
 PandR_GATest.obj: PandR_GATest.cpp.obj
@@ -150,7 +150,7 @@ PandR_GATest.obj: PandR_GATest.cpp.obj
 
 # target to build an object file
 PandR_GATest.cpp.obj:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.obj
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.obj
 .PHONY : PandR_GATest.cpp.obj
 
 PandR_GATest.i: PandR_GATest.cpp.i
@@ -159,7 +159,7 @@ PandR_GATest.i: PandR_GATest.cpp.i
 
 # target to preprocess a source file
 PandR_GATest.cpp.i:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.i
 .PHONY : PandR_GATest.cpp.i
 
 PandR_GATest.s: PandR_GATest.cpp.s
@@ -168,7 +168,7 @@ PandR_GATest.s: PandR_GATest.cpp.s
 
 # target to generate assembly for a file
 PandR_GATest.cpp.s:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\PandRGATest.dir\build.make test/CMakeFiles/PandRGATest.dir/PandR_GATest.cpp.s
 .PHONY : PandR_GATest.cpp.s
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

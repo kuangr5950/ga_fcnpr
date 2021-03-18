@@ -8,10 +8,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <queue>
-#include <stack>
-#include <stdlib.h>
-
 #include "Types.h"
 
 namespace fcnpr{
@@ -42,20 +38,26 @@ namespace fcnpr{
 
     class Astar {
     public:
-        ///Astar();
-        ~Astar();
+        Astar()=default;
+        ~Astar()=default;
 
         void search(Position const &pos1, Position const &pos2);//搜索路径
+
         void checkPoint(uint64_t x, uint64_t y, Point *father, int g);//检查周围结点
+
         void NextStep(Point *currentPoint);//下一个合适的结点
+
         uint64_t isContains(std::vector<Point *> *Pointlist, uint64_t x, uint64_t y);
+
         void countGHF(Point *sPoint, Point *ePoint, int g);
+
         static bool compare(Point *p1, Point *p2);
+
         bool unWalk(uint64_t const &x1, uint64_t const &y1, uint64_t const &x, const uint64_t &y);
+
         uint8_t time_zone_of(Position const &pos);
-        ///void print();
+
         void Path_cache(Point *current);
-        ///void printMap();
 
         std::vector<Point *> openList;
         std::vector<Point *> closeList;
@@ -67,12 +69,6 @@ namespace fcnpr{
         static const int wayCost{10};
         static const uint64_t row{30};
         static const uint64_t col{30};
-    private:
-        explicit  Astar();
-        friend Astar& astar();
     };
-
-    Astar & astar();
 }
-
 #endif //FCNPR_ASTAR_H

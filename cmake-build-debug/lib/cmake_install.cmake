@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitcode/ga_fcnpr/lib
+# Install script for directory: C:/Users/user/Desktop/ga_fcnpr/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/gitcode/ga_fcnpr/cmake-build-debug/lib/mockturtle/cmake_install.cmake")
+  include("C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/cmake_install.cmake")
 
 endif()
 

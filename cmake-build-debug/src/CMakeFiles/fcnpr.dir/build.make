@@ -62,10 +62,10 @@ RM = D:\msys2\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\gitcode\ga_fcnpr
+CMAKE_SOURCE_DIR = C:\Users\user\Desktop\ga_fcnpr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\gitcode\ga_fcnpr\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/fcnpr.dir/depend.make
@@ -79,72 +79,72 @@ include src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/Astar.cpp.obj: src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/Astar.cpp.obj: src/CMakeFiles/fcnpr.dir/includes_CXX.rsp
 src/CMakeFiles/fcnpr.dir/Astar.cpp.obj: ../src/Astar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/fcnpr.dir/Astar.cpp.obj"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Astar.cpp.obj -c F:\gitcode\ga_fcnpr\src\Astar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/fcnpr.dir/Astar.cpp.obj"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Astar.cpp.obj -c C:\Users\user\Desktop\ga_fcnpr\src\Astar.cpp
 
 src/CMakeFiles/fcnpr.dir/Astar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fcnpr.dir/Astar.cpp.i"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\gitcode\ga_fcnpr\src\Astar.cpp > CMakeFiles\fcnpr.dir\Astar.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\ga_fcnpr\src\Astar.cpp > CMakeFiles\fcnpr.dir\Astar.cpp.i
 
 src/CMakeFiles/fcnpr.dir/Astar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fcnpr.dir/Astar.cpp.s"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\gitcode\ga_fcnpr\src\Astar.cpp -o CMakeFiles\fcnpr.dir\Astar.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\ga_fcnpr\src\Astar.cpp -o CMakeFiles\fcnpr.dir\Astar.cpp.s
 
 src/CMakeFiles/fcnpr.dir/Cell.cpp.obj: src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/Cell.cpp.obj: src/CMakeFiles/fcnpr.dir/includes_CXX.rsp
 src/CMakeFiles/fcnpr.dir/Cell.cpp.obj: ../src/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/fcnpr.dir/Cell.cpp.obj"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Cell.cpp.obj -c F:\gitcode\ga_fcnpr\src\Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/fcnpr.dir/Cell.cpp.obj"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Cell.cpp.obj -c C:\Users\user\Desktop\ga_fcnpr\src\Cell.cpp
 
 src/CMakeFiles/fcnpr.dir/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fcnpr.dir/Cell.cpp.i"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\gitcode\ga_fcnpr\src\Cell.cpp > CMakeFiles\fcnpr.dir\Cell.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\ga_fcnpr\src\Cell.cpp > CMakeFiles\fcnpr.dir\Cell.cpp.i
 
 src/CMakeFiles/fcnpr.dir/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fcnpr.dir/Cell.cpp.s"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\gitcode\ga_fcnpr\src\Cell.cpp -o CMakeFiles\fcnpr.dir\Cell.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\ga_fcnpr\src\Cell.cpp -o CMakeFiles\fcnpr.dir\Cell.cpp.s
 
 src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj: src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj: src/CMakeFiles/fcnpr.dir/includes_CXX.rsp
 src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj: ../src/ChessBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\ChessBoard.cpp.obj -c F:\gitcode\ga_fcnpr\src\ChessBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\ChessBoard.cpp.obj -c C:\Users\user\Desktop\ga_fcnpr\src\ChessBoard.cpp
 
 src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fcnpr.dir/ChessBoard.cpp.i"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\gitcode\ga_fcnpr\src\ChessBoard.cpp > CMakeFiles\fcnpr.dir\ChessBoard.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\ga_fcnpr\src\ChessBoard.cpp > CMakeFiles\fcnpr.dir\ChessBoard.cpp.i
 
 src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fcnpr.dir/ChessBoard.cpp.s"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\gitcode\ga_fcnpr\src\ChessBoard.cpp -o CMakeFiles\fcnpr.dir\ChessBoard.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\ga_fcnpr\src\ChessBoard.cpp -o CMakeFiles\fcnpr.dir\ChessBoard.cpp.s
 
 src/CMakeFiles/fcnpr.dir/Network.cpp.obj: src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/Network.cpp.obj: src/CMakeFiles/fcnpr.dir/includes_CXX.rsp
 src/CMakeFiles/fcnpr.dir/Network.cpp.obj: ../src/Network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/fcnpr.dir/Network.cpp.obj"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Network.cpp.obj -c F:\gitcode\ga_fcnpr\src\Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/fcnpr.dir/Network.cpp.obj"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\Network.cpp.obj -c C:\Users\user\Desktop\ga_fcnpr\src\Network.cpp
 
 src/CMakeFiles/fcnpr.dir/Network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fcnpr.dir/Network.cpp.i"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\gitcode\ga_fcnpr\src\Network.cpp > CMakeFiles\fcnpr.dir\Network.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\ga_fcnpr\src\Network.cpp > CMakeFiles\fcnpr.dir\Network.cpp.i
 
 src/CMakeFiles/fcnpr.dir/Network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fcnpr.dir/Network.cpp.s"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\gitcode\ga_fcnpr\src\Network.cpp -o CMakeFiles\fcnpr.dir\Network.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\ga_fcnpr\src\Network.cpp -o CMakeFiles\fcnpr.dir\Network.cpp.s
 
 src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.obj: src/CMakeFiles/fcnpr.dir/flags.make
 src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.obj: src/CMakeFiles/fcnpr.dir/includes_CXX.rsp
 src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.obj: ../src/PandR_GA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.obj"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\PandR_GA.cpp.obj -c F:\gitcode\ga_fcnpr\src\PandR_GA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.obj"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fcnpr.dir\PandR_GA.cpp.obj -c C:\Users\user\Desktop\ga_fcnpr\src\PandR_GA.cpp
 
 src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fcnpr.dir/PandR_GA.cpp.i"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\gitcode\ga_fcnpr\src\PandR_GA.cpp > CMakeFiles\fcnpr.dir\PandR_GA.cpp.i
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Desktop\ga_fcnpr\src\PandR_GA.cpp > CMakeFiles\fcnpr.dir\PandR_GA.cpp.i
 
 src/CMakeFiles/fcnpr.dir/PandR_GA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fcnpr.dir/PandR_GA.cpp.s"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\gitcode\ga_fcnpr\src\PandR_GA.cpp -o CMakeFiles\fcnpr.dir\PandR_GA.cpp.s
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Desktop\ga_fcnpr\src\PandR_GA.cpp -o CMakeFiles\fcnpr.dir\PandR_GA.cpp.s
 
 # Object files for target fcnpr
 fcnpr_OBJECTS = \
@@ -167,8 +167,8 @@ test/libfcnpr.dll: lib/mockturtle/lib/abcsat/liblibabcsat.a
 test/libfcnpr.dll: src/CMakeFiles/fcnpr.dir/linklibs.rsp
 test/libfcnpr.dll: src/CMakeFiles/fcnpr.dir/objects1.rsp
 test/libfcnpr.dll: src/CMakeFiles/fcnpr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\gitcode\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ..\test\libfcnpr.dll"
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fcnpr.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ..\test\libfcnpr.dll"
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fcnpr.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/fcnpr.dir/build: test/libfcnpr.dll
@@ -176,10 +176,10 @@ src/CMakeFiles/fcnpr.dir/build: test/libfcnpr.dll
 .PHONY : src/CMakeFiles/fcnpr.dir/build
 
 src/CMakeFiles/fcnpr.dir/clean:
-	cd /d F:\gitcode\ga_fcnpr\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\fcnpr.dir\cmake_clean.cmake
+	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\fcnpr.dir\cmake_clean.cmake
 .PHONY : src/CMakeFiles/fcnpr.dir/clean
 
 src/CMakeFiles/fcnpr.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\gitcode\ga_fcnpr F:\gitcode\ga_fcnpr\src F:\gitcode\ga_fcnpr\cmake-build-debug F:\gitcode\ga_fcnpr\cmake-build-debug\src F:\gitcode\ga_fcnpr\cmake-build-debug\src\CMakeFiles\fcnpr.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\Desktop\ga_fcnpr C:\Users\user\Desktop\ga_fcnpr\src C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\src\CMakeFiles\fcnpr.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/fcnpr.dir/depend
 

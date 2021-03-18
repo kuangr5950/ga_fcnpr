@@ -47,31 +47,27 @@ namespace fcnpr {
                 travelsals.emplace_back(std::make_pair(node, fanins));
             }
         }
-        
-        //std::cout << "topo order : ";
-        //for(auto &trav :travelsals) {
-        //    std::cout << trav.first << " ";
-        //}
-        //std::cout << std::endl;
         return travelsals;
     }
-
      uint32_t Network::depth() const {
         depth_view view{ntk};
         return view.depth();
     }
 
-     uint32_t Network::level_distance(Node const n, Node const m) const {
+/*
+     uint32_t Network::level_distance(Node const n, Node const m) const
+     {
         depth_view view{ntk};
-
         auto l1 = view.level(n);
         auto l2 = view.level(m);
         return (l1>=l2)? (l1-l2) : (l2-l1);
     }
-	
-     uint32_t Network::node_level(Node const n){
-	depth_view view{ntk};
-	return view.level(n);
+*/
+
+     uint32_t Network::node_level(Node const n)
+     {
+	    depth_view view{ntk};
+	    return view.level(n);
      }
 
     std::vector<Node> Network::nodes_at_level(Level const l) const {
@@ -135,11 +131,6 @@ namespace fcnpr {
         });
         return ostr;
     }
-    
-    
-    
-    
-    
      Network &network() {
         static Network ntk;
         return ntk;

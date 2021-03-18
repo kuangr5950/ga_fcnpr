@@ -20,7 +20,7 @@ namespace fcnpr {
         std::vector< std::pair<Node, std::vector<Node>> > establish_traversal_data() noexcept;
 
         uint32_t depth() const;
-        uint32_t level_distance(Node const n, Node const m) const;
+        //uint32_t level_distance(Node const n, Node const m) const;
 	    uint32_t node_level(Node const n);
 
         std::vector<Node> nodes_at_level(Level const l) const;

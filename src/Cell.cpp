@@ -36,7 +36,6 @@ namespace fcnpr {
 
     void Cell::unput_wire() noexcept {
         assert(wire_count > 0);
-
         wire_count -= 1;
         current_weight -= WIRE_WEIGHT;
     }

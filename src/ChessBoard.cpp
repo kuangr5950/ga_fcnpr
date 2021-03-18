@@ -4,7 +4,6 @@
 
 #include "ChessBoard.h"
 #include <queue>
-#include <cassert>
 
 
 namespace fcnpr {
@@ -53,15 +52,11 @@ namespace fcnpr {
             if((it+1) == std::end(route)) break;
 
             auto &pos = *it;
-            //std::cout << "aa" << std::endl;
             if(cell_at(pos).put_wire()) {
-                //std::cout << "xxx" <<std::endl;
                 wired_route.push_back(pos);
                 place_callback(pos);
             } else {
-                //std::cout << unsigned (chessboard().cell_at(pos).current_weight) <<std::endl;
                 unwire_route(wired_route);
-                //std::cout <<"yy" <<std::endl;
                 return false;
             }
         }
@@ -168,8 +163,9 @@ namespace fcnpr {
 
     Route ChessBoard::compute_path_between(const Position &pos1, const Position &pos2) {
         Route route_two_point;
-        astar().search(pos1, pos2);
-        return route_two_point = astar().route;
+        Astar astar;
+        astar.search(pos1, pos2);
+        return route_two_point = astar.route;
     }
 
     void ChessBoard::place_callback(const Position &pos) noexcept {

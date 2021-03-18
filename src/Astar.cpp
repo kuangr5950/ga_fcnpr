@@ -6,9 +6,6 @@
 
 namespace fcnpr {
 
-    Astar::Astar() {}
-
-    Astar::~Astar() {}
     ///USE时钟方案
     uint8_t Astar::time_zone_of(Position const &pos) {
         uint64_t x = pos.first;
@@ -62,7 +59,7 @@ namespace fcnpr {
         }
     }
 
-///对传入的当前节点 进行下一步处理 检查它周围的四个点是否能够通行
+//对传入的当前节点 进行下一步处理 检查它周围的四个点是否能够通行
     void Astar::NextStep(Point *current) {
         checkPoint(current->x - 1, current->y, current, wayCost);//左
         checkPoint(current->x + 1, current->y, current, wayCost);//右
@@ -70,7 +67,7 @@ namespace fcnpr {
         checkPoint(current->x, current->y - 1, current, wayCost);//上
     }
 
-///具体检查下一个节点的函数
+//具体检查下一个节点的函数
     void Astar::checkPoint(uint64_t x, uint64_t y, Point *father, int g) {
         uint64_t x1 = father->x;
         uint64_t y1 = father->y;
@@ -131,6 +128,7 @@ namespace fcnpr {
 
     bool Astar::compare(Point *p1, Point *p2) {
         return p1->f < p2->f;
+
     }
 
     bool Astar::unWalk(uint64_t const &x1, uint64_t const &y1, uint64_t const &x, uint64_t const &y) {
@@ -145,10 +143,5 @@ namespace fcnpr {
         if (current->father != NULL)
             Path_cache(current->father);
         route.emplace_back(std::make_pair(current->x, current->y));
-    }
-
-    Astar &astar() {
-        static Astar instance{};
-        return instance;
     }
 }
