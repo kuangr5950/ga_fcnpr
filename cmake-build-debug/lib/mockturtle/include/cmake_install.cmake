@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/include
+# Install script for directory: C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

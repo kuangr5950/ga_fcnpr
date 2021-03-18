@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\mockturtle\;CMake Files\lib\mockturtle\include\;CMake Files\lib\mockturtle\lib\;CMake Files\lib\mockturtle\lib\abcsat\;CMake Files\src\;CMake Files\test\;CMake Files\main\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle"/>
+				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libabcsat">
-				<Option output="C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
+				<Option output="C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -27,7 +27,7 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
@@ -37,15 +37,15 @@
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat"/>
-					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libabcsat/fast">
-				<Option output="C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
+				<Option output="C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -53,7 +53,7 @@
 					<Add option="-DLIN64"/>
 					<Add option="-DABC_NAMESPACE=pabc"/>
 					<Add option="-DABC_NO_USE_READLINE"/>
-					<Add directory="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat"/>
+					<Add directory="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/x86_64-w64-mingw32"/>
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include/c++/10.2.0/backward"/>
@@ -63,53 +63,53 @@
 					<Add directory="D:/msys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat/fast"/>
-					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 libabcsat/fast"/>
+					<CompileFile command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/AbcGlucose.cpp">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/AbcGlucose.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/Glucose.cpp">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/Glucose.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/SimpSolver.cpp">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/SimpSolver.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/satSolver.cpp">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/satSolver.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/satStore.cpp">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/satStore.cpp">
 			<Option target="libabcsat"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/include/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/include/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\include\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\mockturtle\lib\abcsat\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/src/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/test/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="C:/Users/user/Desktop/ga_fcnpr/main/CMakeLists.txt">
+		<Unit filename="C:/Users/user/Desktop/ga_fcnpr (1)/main/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\main\"/>
 		</Unit>
 	</Project>

@@ -1,6 +1,18 @@
-D:\msys2\mingw64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\user\Desktop\ga_fcnpr
+D:\msys2\mingw64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\user\Desktop\ga_fcnpr (1)"
+-- The CXX compiler identification is GNU 10.2.0
+-- Check for working CXX compiler: D:/msys2/mingw64/bin/g++.exe
+-- Check for working CXX compiler: D:/msys2/mingw64/bin/g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- [32m * [mUsing: [35mCatch2[m for unit testing
 --  * Testing: Enabled
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/user/Desktop/ga_fcnpr/cmake-build-debug
+-- Build files have been written to: C:/Users/user/Desktop/ga_fcnpr (1)/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Desktop/ga_fcnpr/test
+# Install script for directory: C:/Users/user/Desktop/ga_fcnpr (1)/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Desktop/ga_fcnpr/lib/mockturtle/lib/abcsat
+# Install script for directory: C:/Users/user/Desktop/ga_fcnpr (1)/lib/mockturtle/lib/abcsat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

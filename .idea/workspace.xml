@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FCNPR" targetName="pr" />
       <config projectName="FCNPR" targetName="fcnpr" />
-      <config projectName="FCNPR" targetName="libabcsat" />
       <config projectName="FCNPR" targetName="PandRGATest" />
+      <config projectName="FCNPR" targetName="pr" />
+      <config projectName="FCNPR" targetName="libabcsat" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,8 +14,68 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d377f485-0dc0-4621-9485-82e5ac622761" name="Default Changelist" comment="">
+    <list default="true" id="d377f485-0dc0-4621-9485-82e5ac622761" name="Default Changelist" comment="2021/3/18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FCNPR.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FCNPR.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/include/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/libabcsat.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/libabcsat.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/abcsat/liblibabcsat.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/lib/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/mockturtle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/mockturtle/mockturtle.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/CMakeFiles/pr.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Astar.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Astar.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Cell.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Cell.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/ChessBoard.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Network.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/Network.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/fcnpr.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/PandRGATest.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +100,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A_star_search3.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,11 +112,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="fcnpr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="fcnpr" CONFIG_NAME="Debug">
@@ -72,6 +127,11 @@
     <configuration name="pr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCNPR" TARGET_NAME="pr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FCNPR" RUN_TARGET_NAME="pr">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -119,7 +179,8 @@
       <workItem from="1615860432813" duration="1171000" />
       <workItem from="1615953745523" duration="1164000" />
       <workItem from="1615978900057" duration="3783000" />
-      <workItem from="1616029253166" duration="7372000" />
+      <workItem from="1616029253166" duration="7737000" />
+      <workItem from="1616044528248" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="修改位置:1.在堆区开辟的地址存放种群&#10;2.对结点坐标是否重复的判断依据,改为:将vector容器的数放入set容器中,比较两个size的大小">
       <created>1610853110609</created>
@@ -135,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616038955974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2021/3/18">
+      <created>1616043830775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616043830775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,10 +228,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="230" key="#fcnpr/0.0.1920.1040@0.0.1920.1040" timestamp="1609922559490" />
-    <state x="560" y="101" key="CommitChangelistDialog2" timestamp="1616038927592">
+    <state x="560" y="101" key="CommitChangelistDialog2" timestamp="1616044702136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616038927592" />
+    <state x="560" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616044702136" />
     <state x="740" y="259" key="FileChooserDialogImpl" timestamp="1615186516915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,18 +268,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610541477047" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1610853681766">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1616043840573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610853681766" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616043840573" />
     <state x="706" y="192" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610529346848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="706" y="192" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610529346848" />
-    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616038876069">
+    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616043758327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616038876069" />
+    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616043758327" />
+    <state x="721" y="230" key="git4idea.branch.GitSmartOperationDialog" timestamp="1616043786492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="230" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616043786492" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610539310425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

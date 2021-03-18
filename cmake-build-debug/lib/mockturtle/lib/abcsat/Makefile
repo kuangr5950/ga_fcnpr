@@ -67,10 +67,10 @@ RM = D:\msys2\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\Desktop\ga_fcnpr
+CMAKE_SOURCE_DIR = "C:\Users\user\Desktop\ga_fcnpr (1)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\user\Desktop\ga_fcnpr (1)\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\lib\mockturtle\lib\abcsat\CMakeFiles\progress.marks
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\user\Desktop\ga_fcnpr (1)\cmake-build-debug\CMakeFiles" "C:\Users\user\Desktop\ga_fcnpr (1)\cmake-build-debug\lib\mockturtle\lib\abcsat\CMakeFiles\progress.marks"
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\user\Desktop\ga_fcnpr (1)\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/clean
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/preinstall
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/preinstall
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/rule:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/rule
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/rule
 .PHONY : lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ libabcsat: lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/rule
 
 # fast build rule for target.
 libabcsat/fast:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/build
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/build
 .PHONY : libabcsat/fast
 
 AbcGlucose.obj: AbcGlucose.cpp.obj
@@ -150,7 +150,7 @@ AbcGlucose.obj: AbcGlucose.cpp.obj
 
 # target to build an object file
 AbcGlucose.cpp.obj:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.obj
 .PHONY : AbcGlucose.cpp.obj
 
 AbcGlucose.i: AbcGlucose.cpp.i
@@ -159,7 +159,7 @@ AbcGlucose.i: AbcGlucose.cpp.i
 
 # target to preprocess a source file
 AbcGlucose.cpp.i:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
 .PHONY : AbcGlucose.cpp.i
 
 AbcGlucose.s: AbcGlucose.cpp.s
@@ -168,7 +168,7 @@ AbcGlucose.s: AbcGlucose.cpp.s
 
 # target to generate assembly for a file
 AbcGlucose.cpp.s:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
 .PHONY : AbcGlucose.cpp.s
 
 Glucose.obj: Glucose.cpp.obj
@@ -177,7 +177,7 @@ Glucose.obj: Glucose.cpp.obj
 
 # target to build an object file
 Glucose.cpp.obj:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.obj
 .PHONY : Glucose.cpp.obj
 
 Glucose.i: Glucose.cpp.i
@@ -186,7 +186,7 @@ Glucose.i: Glucose.cpp.i
 
 # target to preprocess a source file
 Glucose.cpp.i:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.i
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.i
 .PHONY : Glucose.cpp.i
 
 Glucose.s: Glucose.cpp.s
@@ -195,7 +195,7 @@ Glucose.s: Glucose.cpp.s
 
 # target to generate assembly for a file
 Glucose.cpp.s:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.s
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.s
 .PHONY : Glucose.cpp.s
 
 SimpSolver.obj: SimpSolver.cpp.obj
@@ -204,7 +204,7 @@ SimpSolver.obj: SimpSolver.cpp.obj
 
 # target to build an object file
 SimpSolver.cpp.obj:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.obj
 .PHONY : SimpSolver.cpp.obj
 
 SimpSolver.i: SimpSolver.cpp.i
@@ -213,7 +213,7 @@ SimpSolver.i: SimpSolver.cpp.i
 
 # target to preprocess a source file
 SimpSolver.cpp.i:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
 .PHONY : SimpSolver.cpp.i
 
 SimpSolver.s: SimpSolver.cpp.s
@@ -222,7 +222,7 @@ SimpSolver.s: SimpSolver.cpp.s
 
 # target to generate assembly for a file
 SimpSolver.cpp.s:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
 .PHONY : SimpSolver.cpp.s
 
 satSolver.obj: satSolver.cpp.obj
@@ -231,7 +231,7 @@ satSolver.obj: satSolver.cpp.obj
 
 # target to build an object file
 satSolver.cpp.obj:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.obj
 .PHONY : satSolver.cpp.obj
 
 satSolver.i: satSolver.cpp.i
@@ -240,7 +240,7 @@ satSolver.i: satSolver.cpp.i
 
 # target to preprocess a source file
 satSolver.cpp.i:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.i
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.i
 .PHONY : satSolver.cpp.i
 
 satSolver.s: satSolver.cpp.s
@@ -249,7 +249,7 @@ satSolver.s: satSolver.cpp.s
 
 # target to generate assembly for a file
 satSolver.cpp.s:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.s
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.s
 .PHONY : satSolver.cpp.s
 
 satStore.obj: satStore.cpp.obj
@@ -258,7 +258,7 @@ satStore.obj: satStore.cpp.obj
 
 # target to build an object file
 satStore.cpp.obj:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.obj
 .PHONY : satStore.cpp.obj
 
 satStore.i: satStore.cpp.i
@@ -267,7 +267,7 @@ satStore.i: satStore.cpp.i
 
 # target to preprocess a source file
 satStore.cpp.i:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.i
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.i
 .PHONY : satStore.cpp.i
 
 satStore.s: satStore.cpp.s
@@ -276,7 +276,7 @@ satStore.s: satStore.cpp.s
 
 # target to generate assembly for a file
 satStore.cpp.s:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.s
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\mockturtle\lib\abcsat\CMakeFiles\libabcsat.dir\build.make lib/mockturtle/lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.s
 .PHONY : satStore.cpp.s
 
 # Help Target
@@ -314,6 +314,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\user\Desktop\ga_fcnpr\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\user\Desktop\GA_FCN~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
